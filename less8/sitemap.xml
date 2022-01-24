@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="https://sitemaps.org/schemas/sitemap/0.9/">
+	<url>
+		<loc>https://rozetka.com.ua/</loc>
+		<lastmod>2022-01-17</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+
+
+<url>
+	<loc>https://rozetka.com.ua/computers-notebooks/</loc>
+	<lastmod>2022-01-17</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.9</priority>
+</url>
+
+<url>
+	<loc>https://rozetka.com.ua/telefony-tv-i-ehlektronika/</loc>
+	<lastmod>2022-01-17</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.9</priority>
+</url>
+
+<url>
+	<loc>https://rozetka.com.ua/game-zone/</loc>
+	<lastmod>2022-01-17</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.9</priority>
+</url>
+
+<url>
+	<loc>https://rozetka.com.ua/sport-i-uvlecheniya/</loc>
+	<lastmod>2022-01-17</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.9</priority>
+</url>
+
+<url>
+	<loc>https://rozetka.com.ua/tablets/c130309/</loc>
+	<lastmod>2022-01-17</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+
+<url>
+	<loc>https://rozetka.com.ua/all-tv/c80037/</loc>
+	<lastmod>2022-01-17</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+
+<url>
+	<loc>https://rozetka.com.ua/kompyuternye-stoly/c155285/59987=geymerskie-stoli/</loc>
+	<lastmod>2022-01-17</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+
+<url>
+	<loc>https://rozetka.com.ua/kompyuternye-stoly/c155285/59987=geymerskie-stoli/nvidia444/</loc>
+	<lastmod>2022-01-17</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.4</priority>
+</url>
+
+<url>
+	<loc>https://rozetka.com.ua/all-tv/c80037/samsungv34/</loc>
+	<lastmod>2022-01-17</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.4</priority>
+</url>

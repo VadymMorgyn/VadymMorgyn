@@ -1,0 +1,9 @@
+User-agent: * (доступ открыть для всех поисковиков роботов гугла)
+Allow: (допустить сканирование страниц или папок и файлов)
+Disallow:  (запретить сканирование страниц или папок и файлов)
+Disallow: /admin/custom.js*
+Disallow: /admin/*.js (на все файлы js)
+Sitemap: https://www.salesforce.com/sitemap.xml
+User-agent: Yandex (доступ открыт только для Yandex)
+Host: htpps://site.ua/
+User-agent: Googlebot (только для гугла)
