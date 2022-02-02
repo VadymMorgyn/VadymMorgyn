@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Position</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.container {
+				width: 900px;
+				margin: 0 auto;
+				height: 1000px;
+			}
+			.box_static {
+			}
+			.box {
+				width: 200px;
+				height: 200px;
+				background-color: blueviolet;
+				border: solid 10px black;
+				margin: 0 auto;
+				margin-bottom: 15px;
+			}
+			.child-box-static {
+				position: static;
+			}
+			.child-box {
+				width: 80px;
+				height: 80px;
+				background: rgb(52, 0, 240);
+			}
+			.box_absolute {
+				position: relative;
+			}
+			.child-box-absolute {
+				position: absolute;
+				top: 20px;
+				left: 20px;
+			}
+			.box_relative {
+			}
+			.child-box-relative {
+				position: relative;
+				top: -25px;
+				left: 20px;
+			}
+			.box_fixed {
+			}
+			.child-box-fixed {
+				position: fixed;
+				top: 50%;
+				right: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="box_static box">
+				<div class="child-box-static child-box"></div>
+			</div>
+			<div class="box_absolute box">
+				<div class="child-box-absolute child-box"></div>
+			</div>
+
+			<div class="box_relative box">
+				<div class="child-box-relative child-box"></div>
+			</div>
+
+			<div class="box_fixed box">
+				<div class="child-box-fixed child-box"></div>
+			</div>
+		</div>
+	</body>
+</html>

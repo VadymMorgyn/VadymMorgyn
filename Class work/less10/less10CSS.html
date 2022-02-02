@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Combinators</title>
+		<style>
+			/* div p{
+				background:#ccc;
+			} */
+			/* div > p {
+				background: #ccc;
+			} */
+			/* div + p + p + p {
+				background: #ccc;
+			} */
+			/* div ~ p {
+				background: #ccc;
+			} */
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			.main {
+				width: 1170px;
+				margin: 0 auto;
+			}
+			.none {
+				display: block;
+				padding-bottom: 20px;
+			}
+			.main h2 {
+				text-align: center;
+				padding: 20px;
+			}
+			.text1 {
+				color: aqua;
+				text-align: center;
+			}
+			.text2 {
+				text-align: left;
+				color: red;
+			}
+			.text3 {
+				text-align: right;
+				color: blue;
+			}
+			.text4 {
+				text-align: justify;
+				width: 600px;
+				color: green;
+			}
+			.text5 {
+				text-decoration: none;
+				color: brown;
+			}
+			.text5:hover {
+				text-decoration: underline;
+				color: darkblue;
+			}
+			.text6 {
+				text-decoration: underline;
+				color: blueviolet;
+			}
+			.text7 {
+				color: darkgrey;
+				text-decoration: line-through;
+			}
+			.text8 {
+				text-transform: capitalize;
+				color: darkorange;
+			}
+			.text9 {
+				text-transform: uppercase;
+				color: darkslategrey;
+			}
+			.text10 {
+				text-transform: lowercase;
+				color: chartreuse;
+			}
+			.text11 {
+				text-indent: 30px;
+				color: magenta;
+			}
+			.text12 {
+				font-style: italic;
+				color: coral;
+			}
+			.text13 {
+				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+				color: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<h2>Lorem ispum</h2>
+		</div>
+		<p>color</p>
+		<p>color</p>
+		<p>color</p>
+		<div>
+			<p>color</p>
+			<p>color</p>
+			<p>color</p>
+		</div>
+		<main class="main">
+			<h2>Heading</h2>
+			<div class="text1 none">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ut
+				cumque obcaecati libero, tempora quo, similique dolor odio esse sit
+				minus modi facilis eius, eligendi exercitationem? Possimus mollitia
+				fugiat Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+				nostrum vero eligendi dolorem fuga fugit magnam nisi, quia unde non
+				quam, tempora provident ea? Nulla non quisquam dolorum tenetur sit!
+			</div>
+			<div class="text2 none">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ut
+				cumque obcaecati libero, tempora quo, similique dolor odio esse sit
+				minus modi facilis eius, eligendi exercitationem? Possimus mollitia
+				fugiat Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+				nostrum vero eligendi dolorem fuga fugit magnam nisi, quia unde non
+				quam, tempora provident ea? Nulla non quisquam dolorum tenetur sit!
+			</div>
+			<div class="text3 none">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ut
+				cumque obcaecati libero, tempora quo, similique dolor odio esse sit
+				minus modi facilis eius, eligendi exercitationem? Possimus mollitia
+				fugiat Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+				nostrum vero eligendi dolorem fuga fugit magnam nisi, quia unde non
+				quam, tempora provident ea? Nulla non quisquam dolorum tenetur sit!
+			</div>
+			<div class="text4 none">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ut
+				cumque obcaecati libero, tempora quo, similique dolor odio esse sit
+				minus modi facilis eius, eligendi exercitationem? Possimus mollitia
+				fugiat Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+				nostrum vero eligendi dolorem fuga fugit magnam nisi, quia unde non
+				quam, tempora provident ea? Nulla non quisquam dolorum tenetur sit!
+			</div>
+			<a href="#" class="text5 none">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ut
+				cumque obcaecati libero, tempora quo, similique dolor odio esse sit
+				minus modi facilis eius, eligendi exercitationem? Possimus mollitia
+				fugiat Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+				nostrum vero eligendi dolorem fuga fugit magnam nisi, quia unde non
+				quam, tempora provident ea? Nulla non quisquam dolorum tenetur sit!
+			</a>
+			<div class="text6 none">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ut
+				cumque obcaecati libero, tempora quo, similique dolor odio esse sit
+				minus modi facilis eius, eligendi exercitationem? Possimus mollitia
+				fugiat Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+				nostrum vero eligendi dolorem fuga fugit magnam nisi, quia unde non
+				quam, tempora provident ea? Nulla non quisquam dolorum tenetur sit!
+			</div>
+			<div class="text7 none">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ut
+				cumque obcaecati libero, tempora quo, similique dolor odio esse sit
+				minus modi facilis eius, eligendi exercitationem? Possimus mollitia
+				fugiat Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+				nostrum vero eligendi dolorem fuga fugit magnam nisi, quia unde non
+				quam, tempora provident ea? Nulla non quisquam dolorum tenetur sit!
+			</div>
+			<div class="text8 none">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ut
+				cumque obcaecati libero, tempora quo, similique dolor odio esse sit
+				minus modi facilis eius, eligendi exercitationem? Possimus mollitia
+				fugiat Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+				nostrum vero eligendi dolorem fuga fugit magnam nisi, quia unde non
+				quam, tempora provident ea? Nulla non quisquam dolorum tenetur sit!
+			</div>
+			<div class="text9 none">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ut
+				cumque obcaecati libero, tempora quo, similique dolor odio esse sit
+				minus modi facilis eius, eligendi exercitationem? Possimus mollitia
+				fugiat Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+				nostrum vero eligendi dolorem fuga fugit magnam nisi, quia unde non
+				quam, tempora provident ea? Nulla non quisquam dolorum tenetur sit!
+			</div>
+			<div class="text10 none">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ut
+				cumque obcaecati libero, tempora quo, similique dolor odio esse sit
+				minus modi facilis eius, eligendi exercitationem? Possimus mollitia
+				fugiat Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+				nostrum vero eligendi dolorem fuga fugit magnam nisi, quia unde non
+				quam, tempora provident ea? Nulla non quisquam dolorum tenetur sit!
+			</div>
+			<div class="text11 none">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ut
+				cumque obcaecati libero, tempora quo, similique dolor odio esse sit
+				minus modi facilis eius, eligendi exercitationem? Possimus mollitia
+				fugiat Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+				nostrum vero eligendi dolorem fuga fugit magnam nisi, quia unde non
+				quam, tempora provident ea? Nulla non quisquam dolorum tenetur sit!
+			</div>
+			<div class="text12 none">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ut
+				cumque obcaecati libero, tempora quo, similique dolor odio esse sit
+				minus modi facilis eius, eligendi exercitationem? Possimus mollitia
+				fugiat Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+				nostrum vero eligendi dolorem fuga fugit magnam nisi, quia unde non
+				quam, tempora provident ea? Nulla non quisquam dolorum tenetur sit!
+			</div>
+			<div class="text13 none">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ut
+				cumque obcaecati libero, tempora quo, similique dolor odio esse sit
+				minus modi facilis eius, eligendi exercitationem? Possimus mollitia
+				fugiat Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+				nostrum vero eligendi dolorem fuga fugit magnam nisi, quia unde non
+				quam, tempora provident ea? Nulla non quisquam dolorum tenetur sit!
+			</div>
+		</main>
+	</body>
+</html>
